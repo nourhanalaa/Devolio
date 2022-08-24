@@ -1,0 +1,459 @@
+/* home */
+
+
+
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.navbar {
+    background-color: rgb(27, 27, 27) !important;
+    height: 70px;   
+}
+ .navbar-light .navbar-brand  {   
+       display: block;
+        font-size: 30px ;
+        font-weight: 800;
+        padding: 18px 0;
+    
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: white;
+}
+ ul.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 20px 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    transition-duration: 3s;
+    transition-property: c;
+}
+
+.navbar-light .navbar-nav li a:hover{
+color: red;
+}
+
+.home .home-text h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bg-color{
+    background-color: rgba(0, 0, 0,.8);
+} 
+ 
+
+.text-light{
+    color: #dee3e4 !important;
+    font-size: 21px;
+}
+h1{
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 43px;
+    text-transform: capitalize;
+    
+}
+
+ .home h2::after{
+    content: "";
+    animation-name: typing ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes typing{
+    0%{
+        content: " |";
+    }
+    2%{
+        content: " D |";
+    }
+    4%{
+        content: " De |";
+    }
+    6%{
+        content: " Dev |";
+    }
+    8%{
+        content: " Deve |";
+    }
+    10%{
+        content: " Devel |";
+    }
+    12%{
+        content: " Develo |";
+    }
+    14%{
+        content: " Develop |";
+    }
+    16%{
+        content: " Develope |";
+    }
+    18%{
+        content: " Developer |";
+    }
+    20%{
+        content: " Develope |";
+    }
+    22%{
+        content: " Develop |";
+    }
+    24%{
+        content: " Develo |";
+    }
+    26%{
+        content: " Devel |";
+    }
+    28%{
+        content: " Deve |";
+    }
+    30%{
+        content: " Dev |";
+    }
+    32%{
+        content: " De |";
+    }
+    34%{
+        content: " D |";
+    }
+    40%{
+        content: " |";
+    }
+    42%{
+        content: " D |";
+    }
+    44%{
+        content: " De |";
+    }
+    46%{
+        content: " Des |";
+    }
+    48%{
+        content: " Desi |";
+    }
+    50%{
+        content: " Desin |";
+    }
+    52%{
+        content: " Desine |";
+    }
+    54%{
+        content: " Desiner |";
+    }
+    56%{
+        content: " Desine |";
+    }
+    58%{
+        content: " Desin |";
+    }
+    60%{
+        content: " Desi |";
+    }
+    62%{
+        content: " Des |";
+    }
+    64%{
+        content: " De |";
+    }
+    66%{
+        content: " D |";
+    }
+    72%{
+        content: " |";
+    }
+    74%{
+        content: " D |";
+    }
+    76%{
+        content: " De |";
+    }
+    78%{
+        content: " Des |";
+    }
+    80%{
+        content: " Desi |";
+    }
+    82%{
+        content: " Desin |";
+    }
+    84%{
+        content: " Desine |";
+    }
+    86%{
+        content: " Desiner |";
+    }
+    88%{
+        content: " Desine |";
+    }
+    90%{
+        content: " Desin |";
+    }
+    92%{
+        content: " Desi |";
+    }
+    94%{
+        content: " Des |";
+    }
+    96%{
+        content: " De |";
+    }
+    98%{
+        content: " D| ";
+    }
+    100%{
+        content: " |";
+    }
+}
+.home .hire-btn{
+    
+    border-color: #20c997 !important;
+    
+    color:  #20c997;
+    padding: 15px 40px;
+   
+}
+.home button:hover{
+    background-color:#20c997  !important;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************** Start About section ******************/
+.about{
+    background-color: #f5f5f5;
+}
+.skill-item p{
+    margin: 0;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.about h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    left: 0;
+    bottom: 0px;
+}
+/*************** End About section ******************/
+
+/*************** Start SERVICES section ******************/
+.services{
+    background-color: #f5f5f5;
+}
+.services:hover .service-icon{
+    background-color: #0078ff !important;
+    color: white !important;
+    box-shadow: #94bce9;
+}
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 15px 15px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.service-box .service-icon {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+.service-icon{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    transition: 2s ease-in-out;
+}
+
+.services h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+}
+/*************** End SERVICES section ******************/
+
+/*************** Start count section ******************/
+.count{
+    background: linear-gradient(rgba(0,120,225,.7),rgba(0,120,225,.7)) ,url(../images/counters-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+}
+.count .count-item .count-icon span {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 10px solid #cde1f8;  
+}
+.count-icon{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*************** End count section ******************/
+
+/*************** Start PORTFOLIO section ******************/
+.portfolio{
+    padding: 60px 0px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+
+}
+.card{
+    border: 0px;
+}
+.card-img{
+    overflow: hidden;
+}
+.card-body-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.card:hover img{
+   transform: scale(1.3, 1.3);
+}
+.card img{
+    transition: transform 1s ease-in-out ;
+}
+.line{
+    width: 50px;
+    height: 5px;
+}
+/*************** End PORTFOLIO section ******************/
+/* .carousal{
+    padding: 6rem 0;
+    background: linear-gradient(rgb(0, 120, 255,.7),rgb(0, 120, 255,.7)),url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+ .carousel-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+.carousel-caption {
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.blog{
+   background-color: #f5f5f5;
+}
+.card-blog{
+    border: 1px solid rgba(0,0,0,.125);
+}
+.blog .card-body{
+    padding: 0;
+}
+.card-body-title{
+    padding: 16px 16px;
+}
+.card-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+ .col-pos{
+    position: absolute;
+    background-color: #0078ff;
+    left: 50%;
+    transform: translateX(-55%);
+    top:47% ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 17px;
+      
+}
+.card-footer img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.card-footer a{
+    text-decoration: none !important;
+    color: #4e4e4e;;
+}
+a:hover{
+    color: #0078ff;
+}
+
+/*************** End SERVICES section ******************/
+.contact{
+    background-color: #f5f5f5;
+ }
+.contact h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 25%;
+    left: 0;
+    bottom: 0px;
+}
+.contact form button {
+    padding: 10px 24px;
+    transform: translateX(-50%);
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    transition: all .8s;
+}
+.contact p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+}
+ul{
+    list-style-type: none;
+}
+.contact .social-icons span{
+    display: inline-block;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #0078ff;
+    text-align: center;
+    transition: all .8s;
+}
+span a{
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
